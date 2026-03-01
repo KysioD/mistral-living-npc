@@ -1,0 +1,6 @@
+[submodule "mistral-hackaton-online-2026-unity"]
+	path = mistral-hackaton-online-2026-unity
+	url = https://github.com/KysioD/mistral-hackaton-online-2026-unity
+[submodule "mistral-hackaton-online-2026-backoffice"]
+	path = mistral-hackaton-online-2026-backoffice
+	url = https://github.com/KysioD/mistral-hackaton-online-2026-backoffice
