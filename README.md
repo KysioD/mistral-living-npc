@@ -289,6 +289,8 @@ The RAG approach already produces very consistent NPC behaviour with `ministral-
 - **Fine-tuning for function calling** — a well fine-tuned `ministral-3b` would likely match or exceed the current results at a fraction of the cost and latency. The annotated datasets included in the backend repo (`dataset/` and `dataset/`) are a starting point for that.
 - **More NPC variety** — the system is fully data-driven; adding new characters only requires writing a character prompt, a set of example conversations, and assigning tools in the backoffice.
 - **Persistent memory** - Using this system, we can easily store and retrieve long-term memories for each NPC, allowing them to remember past interactions with the player across sessions and react accordingly, and even to share memories between NPCs to create a more cohesive world.
+- **Prompt tuning** - Even tho the RAG approach permited us to have more consistent NPC personalities, it still needs some prompt tuning to get the best out of it.
+- **Better tool call handling** - Due to the short delay and the quantity of work, the function calling implementation on Unity's side is quite dirty, and it has an impact on the model quality. A more robust implementation and a more structured data format for tool calls would likely improve results significantly.
 
 ---
 
