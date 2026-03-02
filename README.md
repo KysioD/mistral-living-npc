@@ -4,6 +4,8 @@ A proof-of-concept demonstrating dynamic, AI-driven NPC interactions in a 3D gam
 
 Players can speak to (or type at) NPCs using natural language. NPCs respond with voice and text, and can trigger real in-game actions through function calling — all powered by [Mistral AI](https://mistral.ai).
 
+> A POST_MORTEM retracing what we expected to build, what we actually built, the issues we encountered, the final result and the lessons learned from this hackaton can be found in [POST_MORTEM.md](POST_MORTEM.md).
+
 ---
 
 ## Repositories
